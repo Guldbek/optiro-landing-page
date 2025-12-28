@@ -6,15 +6,38 @@ import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/c
 import { theme } from '../theme';
 
 export const metadata = {
-  title: 'Optiro - Projektstyring & Ressourceplanlægning | Konsulenter, Arkitekter & Håndværkere',
-  description: 'Styr på projekter, timer og ressourcer. Projektstyring til konsulenter, IT-virksomheder, arkitekter, designere og håndværkere. Tidsregistrering, ressourceplanlægning og budgetoverblik. Voks med os. Prøv gratis.',
+  title: 'Optiro - Projektstyring & Ressourceplanlægning',
+  description: 'Styr på projekter, timer og ressourcer for konsulenter, IT, arkitekter og håndværkere. Tidsregistrering og budgetoverblik. Prøv gratis.',
   keywords: 'projektstyring, ressourceplanlægning, tidsregistrering, konsulent projektstyring, IT projektstyring, arkitekt planlægning, timeregistrering, medarbejder planlægning, projekt software, timer tracking, kapacitetsplanlægning',
+  authors: [{ name: 'Optiro ApS' }],
+  creator: 'Optiro ApS',
+  publisher: 'Optiro ApS',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     title: 'Optiro - Projektstyring & Ressourceplanlægning',
     description: 'Styr på projekter, timer og ressourcer. Til konsulenter, arkitekter, designere og håndværkere.',
-    type: 'website',
-    locale: 'da_DK',
+    url: 'https://optiro.dk',
     siteName: 'Optiro',
+    locale: 'da_DK',
+    type: 'website',
+    images: [
+      {
+        url: 'https://optiro.dk/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Optiro Projektstyring',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Optiro - Projektstyring & Ressourceplanlægning',
+    description: 'Styr på projekter, timer og ressourcer for projektbaserede virksomheder',
+    images: ['https://optiro.dk/og-image.png'],
   },
   robots: {
     index: true,
@@ -22,10 +45,16 @@ export const metadata = {
     googleBot: {
       index: true,
       follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
   },
   alternates: {
     canonical: 'https://optiro.dk',
+  },
+  verification: {
+    // google: 'your-google-verification-code', // Add when you set up Google Search Console
   },
 };
 
@@ -111,6 +140,25 @@ export default function RootLayout({ children }: { children: any }) {
     ],
   };
 
+  const organizationStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Optiro ApS',
+    url: 'https://optiro.dk',
+    logo: 'https://optiro.dk/optiro.svg',
+    sameAs: [
+      'https://www.linkedin.com/company/optiro',
+      'https://www.facebook.com/optiro',
+      'https://www.instagram.com/optiro',
+      'https://twitter.com/optiro',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Support',
+      availableLanguage: ['Danish'],
+    },
+  };
+
   return (
     <html lang="da" {...mantineHtmlProps}>
       <head>
@@ -127,6 +175,10 @@ export default function RootLayout({ children }: { children: any }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
         />
       </head>
       <body>

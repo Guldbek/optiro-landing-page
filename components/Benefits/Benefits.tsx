@@ -85,9 +85,9 @@ export function Benefits() {
                           <Icon size={24} stroke={1.5} />
                         </ThemeIcon>
                         <div className={classes.featureContent}>
-                          <Text fw={600} size="md" className={classes.featureTitle}>
+                          <Title order={3} fw={600} size="md" className={classes.featureTitle}>
                             {feature.title}
-                          </Text>
+                          </Title>
                           <Text size="sm" c="dimmed" mt={4}>
                             {feature.description}
                           </Text>

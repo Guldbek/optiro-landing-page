@@ -1,6 +1,7 @@
 'use client';
 
-import { Container, Group, Anchor, Stack } from '@mantine/core';
+import { Container, Group, Anchor, Stack, ActionIcon } from '@mantine/core';
+import { IconBrandLinkedin, IconBrandFacebook, IconBrandInstagram, IconBrandX } from '@tabler/icons-react';
 import Image from 'next/image';
 import classes from './Footer.module.css';
 
@@ -38,6 +39,46 @@ export function Footer() {
                 Gå til app
               </Anchor>
             </Stack>
+          </div>
+
+          <div className={classes.social}>
+            <p className={classes.socialTitle}>Følg os</p>
+            <Group gap="sm">
+              <ActionIcon
+                component="a"
+                href="https://www.linkedin.com/company/optiro-planning/"
+                target="_blank"
+                rel="noopener noreferrer"
+                size="lg"
+                color="gray"
+                aria-label="LinkedIn"
+              >
+                <IconBrandLinkedin size={20} />
+              </ActionIcon>
+              <ActionIcon
+                component="a"
+                href="https://www.facebook.com/profile.php?id=61574950835799"
+                target="_blank"
+                rel="noopener noreferrer"
+                size="lg"
+                color="gray"
+                aria-label="Facebook"
+              >
+                <IconBrandFacebook size={20} />
+              </ActionIcon>
+              <ActionIcon
+                component="a"
+                href="https://www.instagram.com/optiroapp/"
+                target="_blank"
+                rel="noopener noreferrer"
+                size="lg"
+                color="gray"
+                aria-label="Instagram"
+              >
+                <IconBrandInstagram size={20} />
+              </ActionIcon>
+
+            </Group>
           </div>
         </div>
 

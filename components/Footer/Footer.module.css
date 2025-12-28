@@ -39,6 +39,19 @@
   gap: 40px;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.socialTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--mantine-color-gray-7);
+  margin: 0;
+}
+
 .link {
   color: var(--mantine-color-gray-7);
   text-decoration: none;

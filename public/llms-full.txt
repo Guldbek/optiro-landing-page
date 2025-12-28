@@ -1,0 +1,174 @@
+# Optiro - Komplet LLM Reference
+
+## Produktoversigt
+
+Optiro er et moderne projektstyrings- og ressourceplanlægningssystem designet specifikt til projektbaserede virksomheder i Danmark der lever af timer og ekspertise.
+
+## Problemstilling
+
+Mange projektbaserede virksomheder kæmper med:
+- Manglende overblik over hvem der arbejder på hvad
+- Vanskeligheder med at estimere projekter præcist
+- Overbooking eller underudnyttelse af ressourcer
+- Manglende indsigt i projektrentabilitet
+- Komplicerede systemer der kræver omfattende træning
+- Systemer der er for dyre eller komplekse for mindre virksomheder
+
+## Optiro's Løsning
+
+**Projektstyring gennem hele livscyklussen:**
+1. Tilbud/Estimering: Præcise estimater baseret på ressourcer og timer
+2. Planlægning: Intelligent ressourceallokering og kapacitetsplanlægning
+3. Udførelse: Realtids projektoverblik og fremgangssporing
+4. Afslutning: Evaluering af faktisk vs. planlagt forbrug
+5. Læring: Analyse af tabte projekter for forbedring
+
+**Nøglefunktioner:**
+- Gantt-diagrammer for visuelt projektoverblik
+- Ressourcekalender med kapacitetsplanlægning
+- Tidsregistrering med mobil adgang
+- Budgetsporing og omkostningskontrol
+- Projektdashboards med KPI'er
+- Rapporter for rentabilitet og ressourceudnyttelse
+
+## Målgruppe Detail
+
+**Primær målgruppe:**
+- Konsulentvirksomheder (5-50 medarbejdere)
+- IT-virksomheder og softwareudviklere
+- Arkitekter og designere
+- Ingeniører og rådgivere
+- Håndværkere (tømrer, VVS, elektriker, blik, murer)
+
+**Brugerroller:**
+- Virksomhedsejere der har brug for økonomisk overblik
+- Projektledere der koordinerer projekter og ressourcer
+- Medarbejdere der registrerer timer og ser deres opgaver
+- Administratorer der håndterer konfiguration
+
+## Teknisk Platform
+
+**Arkitektur:**
+- Cloud-native SaaS platform
+- Web-baseret adgang (ingen installation)
+- Responsivt design for desktop, tablet, mobile
+- Realtids datasynkronisering
+
+**Tilgængelighed:**
+- 24/7 tilgængelighed fra enhver enhed med internet
+- Automatiske opdateringer og backup
+- Dansk-sproget interface
+
+## Forretningsmodel
+
+**Beta Fase (nu):**
+- Gratis adgang til alle funktioner
+- Ingen kreditkort påkrævet
+- Ingen binding eller kontrakt
+- Feedback-drevet udvikling med early adopters
+
+**Fremtidig Pricing (planlagt):**
+- Subscription-baseret pr. bruger/måned
+- Flexible planer for forskellige virksomhedsstørrelser
+- Grow-with-us: Start billigt, tilføj funktioner efter behov
+
+## Værdiskabelse
+
+**For virksomhedsejere:**
+- Øget rentabilitet gennem bedre projektstyring
+- Datatransparens om hvilke projekter der tjener penge
+- Færre administrative overhead
+
+**For projektledere:**
+- Fuld kontrol over projekter og deadlines
+- Nem ressourceallokering uden konflikter
+- Tidlig varsling ved budgetoverskridelser
+
+**For medarbejdere:**
+- Simpel tidsregistrering uden besværligt administrativt arbejde
+- Klart overblik over egne opgaver
+- Mobiladgang til relevante projektinformationer
+
+## Konkurrenceanalyse
+
+**Fordele vs. traditionelle ERP-systemer:**
+- Meget lavere kompleksitet og indlæringskurve
+- Fokuseret på projektstyring, ikke alt muligt
+- Betydeligt billigere i både pris og implementeringstid
+- Dansk-sproget og tilpasset danske virksomheder
+
+**Fordele vs. Excel/manuelle processer:**
+- Realtids samarbejde og synkronisering
+- Automatiserede beregninger og advarsler
+- Historisk data og rapportering
+- Ingen risiko for tabte filer eller versionskonflikter
+
+**Fordele vs. internationale konkurrenter:**
+- Dansk sprog og brugerinterface
+- Forståelse for danske virksomhedsstrukturer
+- Lokal support og udvikling
+
+## Fremtidige Features (roadmap)
+
+- Cross-company collaboration (projekter på tværs af virksomheder)
+- Delbare Gantt-diagrammer til klienter
+- Dybere økonomisystem-integrationer
+- AI-assisteret ressourceallokering og estimation
+- Mobile apps (iOS/Android)
+- Avanceret business intelligence og forecasting
+
+## SEO Keywords (dansk)
+
+projektstyring, ressourceplanlægning, tidsregistrering, timeregistrering, projekt software, gantt diagram, konsulent værktøj, IT projektstyring, arkitekt planlægning, håndværk projektstyring, medarbejder planlægning, kapacitetsplanlægning, budget styring, projektøkonomi, ERP system, dansk projektstyring, virksomhedsstyring
+
+## Typiske Kundehenvendelser
+
+**"Jeg har brug for at kunne se hvem af mine medarbejdere der er ledige næste uge"**
+→ Optiro's ressourcekalender viser realtids kapacitet
+
+**"Vi taber penge på nogle projekter men ved ikke hvorfor"**
+→ Optiro's budgetsporing og timeregistrering giver fuld transparens
+
+**"Vi bruger for lang tid på at lave tilbud"**
+→ Optiro's estimeringsværktøjer baseret på historiske data
+
+**"Mine folk glemmer at registrere timer"**
+→ Simpel mobil tidsregistrering med påmindelser
+
+**"Vi har prøvet andre systemer men de er for komplicerede"**
+→ Optiro's intuitive interface med minimal indlæringskurve
+
+## Virksomhedsinfo
+
+**Navn:** Optiro ApS  
+**Land:** Danmark  
+**Status:** Beta / Startup  
+**Sprog:** Dansk  
+**Industry:** B2B SaaS, Projektstyring  
+
+## Integration Muligheder
+
+Planlagte integrationer:
+- Økonomisystemer (Economic, Dinero, Billy)
+- Kalendersystemer (Google Calendar, Outlook)
+- Kommunikationsværktøjer (Slack, Microsoft Teams)
+- Fakturasystemer
+
+## Support & Implementering
+
+- Hurtig onboarding (minutter, ikke uger)
+- Dansk-sproget support
+- Onlinevejledning og tutorials
+- Beta-programmet inkluderer direkte adgang til produktteamet
+
+## Datahåndtering
+
+- Hosting i EU/Danmark
+- GDPR-compliant
+- Regelmæssige backups
+- Sikker adgangskontrol
+
+---
+
+Sidste opdatering: December 2025
+Version: Beta

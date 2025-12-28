@@ -1,0 +1,107 @@
+.section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.wrapper {
+  gap: 60px;
+}
+
+.content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #2a5a46 0%, #3c735b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+
+.subtitle {
+  line-height: 1.6;
+}
+
+.priceCard {
+  flex: 1;
+  max-width: 450px;
+  padding: 30px;
+  background: white;
+  border: 1px solid rgba(60, 115, 91, 0.15);
+}
+
+.planName {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--mantine-color-optiro-8);
+  margin: 0;
+}
+
+.priceAmount {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.currency {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--mantine-color-gray-6);
+}
+
+.amount {
+  font-size: 48px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #2a5a46 0%, #3c735b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.period {
+  font-size: 14px;
+  color: var(--mantine-color-gray-6);
+}
+
+.checkIcon {
+  color: var(--mantine-color-optiro-6);
+  flex-shrink: 0;
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, #3c735b 0%, #4a8f6f 100%);
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 4px 12px rgba(60, 115, 91, 0.25);
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: linear-gradient(135deg, #4a8f6f 0%, #3c735b 100%);
+  box-shadow: 0 6px 20px rgba(60, 115, 91, 0.35);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .priceCard {
+    max-width: 100%;
+  }
+}

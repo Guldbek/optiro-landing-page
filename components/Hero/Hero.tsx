@@ -10,7 +10,7 @@ export function Hero() {
       <Container size="lg">
         <div className={classes.inner}>
           <div className={classes.content}>
-            <Title className={classes.title}>
+            <Title className={classes.title} order={1}>
               Styr på projekter, timer og ressourcer
             </Title>
             <Text className={classes.description} size="lg" mt="md">

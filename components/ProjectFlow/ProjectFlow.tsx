@@ -42,7 +42,7 @@ export function ProjectFlow() {
     <section className={classes.section}>
       <Container size="lg">
         <div className={classes.header}>
-          <Badge size="lg" variant="light" color="optiro">SÅDAN VIRKER DET</Badge>
+          <Badge size="lg"  color="optiro">SÅDAN VIRKER DET</Badge>
           <Title order={2} className={classes.title} mt="md">
             Fra tilbud til afslutning – fuld kontrol over projekter og ressourcer
           </Title>
@@ -60,9 +60,9 @@ export function ProjectFlow() {
                 <div className={classes.iconWrapper} style={{ backgroundColor: `var(--mantine-color-${step.color}-1)` }}>
                   <Icon size={32} stroke={1.5} style={{ color: `var(--mantine-color-${step.color}-6)` }} />
                 </div>
-                <Text fw={700} size="sm" mt="md" className={classes.cardTitle}>
+                <Title order={3} fw={700} size="sm" mt="md" className={classes.cardTitle}>
                   {step.title}
-                </Text>
+                </Title>
                 <Text size="sm" c="dimmed" mt="sm" className={classes.cardDescription}>
                   {step.description}
                 </Text>

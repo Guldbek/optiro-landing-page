@@ -1,0 +1,67 @@
+# Optiro
+
+> Projektstyring og ressourceplanlægning til projektbaserede virksomheder
+
+## Hvad er Optiro?
+
+Optiro er et cloud-baseret projektstyrings- og ressourceplanlægningssystem designet til virksomheder der lever af timer og projekter. Målgruppen inkluderer konsulenter, IT-virksomheder, arkitekter, designere, rådgivere, ingeniører og håndværkere.
+
+## Kernefunktionalitet
+
+- **Projektstyring**: Følg projekter fra tilbud til afslutning med fuld transparens
+- **Ressourceplanlægning**: Se hvem der er booket, hvem der har kapacitet, og undgå overbooking
+- **Tidsregistrering**: Simpel timeregistrering med realtids opdatering
+- **Budgetoverblik**: Spor projektøkonomi, omkostninger og rentabilitet
+- **Gantt-diagrammer**: Visualiser projektplaner og tidslinjer
+- **Rapportering**: Analyser timefordeling, projektrentabilitet og ressourceudnyttelse
+
+## Målgruppe
+
+Optiro er bygget til projektbaserede virksomheder i følgende brancher:
+- Konsulentvirksomheder (IT, strategi, management)
+- Arkitekt- og designfirmaer
+- Ingeniør- og rådgivningsvirksomheder
+- Håndværkere (tømrer, VVS, elektriker, blik)
+- Softwareudviklingsvirksomheder
+- Kreative bureauer
+
+## Pris
+
+Optiro er i beta og gratis at prøve uden kreditkort eller binding. Fuld adgang til alle funktioner.
+
+## Teknologi
+
+- Cloud-baseret platform tilgængelig via web browser
+- Fungerer på desktop, tablet og smartphone
+- Dansk-sproget interface
+- Realtids datasynkronisering
+
+## Konkurrencefordele
+
+1. **Grow-with-us koncept**: Start med grundlæggende projektstyring, tilføj funktioner efterhånden som virksomheden vokser
+2. **Dansk fokus**: Bygget til danske virksomheder med dansk sprog og forståelse for det danske marked
+3. **Simpelt interface**: Ikke overkompliceret - fokus på de funktioner virksomheder faktisk bruger
+4. **Timer i fokus**: Optimeret til virksomheder der sælger tid og ekspertise
+
+## Use Cases
+
+- Estimere tid og ressourcer til projektbud
+- Allokere medarbejdere til projekter baseret på kapacitet
+- Følge projektfremgang og timeregistreringer i realtid
+- Analysere om projekter giver overskud
+- Identificere flaskehalse i ressourceudnyttelsen
+- Forbedre fremtidige estimater baseret på historiske data
+
+## Adresse
+
+Website: https://optiro.dk
+App: https://app.optiro.dk
+
+## Kontakt
+
+Optiro ApS
+Danmark
+
+## Status
+
+Beta version - aktiv udvikling med gratis adgang for early adopters.
