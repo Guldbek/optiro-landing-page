@@ -54,6 +54,18 @@
   transform: translateY(-3px);
 }
 
+.link {
+  color: #3c735b;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: #4a8f6f;
+  text-decoration: underline;
+}
+
 .imageWrapper {
   flex: 1;
   min-width: 0;

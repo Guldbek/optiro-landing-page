@@ -41,6 +41,23 @@ export function Footer() {
             </Stack>
           </div>
 
+          <div className={classes.links}>
+            <Stack gap="xs">
+              <Anchor
+                href="/ressourceplanlaegning"
+                className={classes.link}
+              >
+                Ressourceplanlægning
+              </Anchor>
+              <Anchor
+                href="/projektstyring-smaa-teams"
+                className={classes.link}
+              >
+                Projektstyring for små teams
+              </Anchor>
+            </Stack>
+          </div>
+
           <div className={classes.social}>
             <p className={classes.socialTitle}>Følg os</p>
             <Group gap="sm">
