@@ -39,6 +39,9 @@ export function Hero() {
               width={2624}
               height={1648}
               priority
+              loading="eager"
+              fetchPriority="high"
+              quality={75}
               className={classes.image}
             />
           </div>

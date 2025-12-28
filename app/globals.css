@@ -15,12 +15,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Add smooth animations for all interactive elements */
-button, a, .mantine-Card-root {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Improve button hover states globally */
-button:active {
-  transform: scale(0.98);
+/* Critical CSS - inline minimal styles */
+.hero-skeleton {
+  min-height: 600px;
+  background: linear-gradient(135deg, #e8f5f0 0%, #f0faf6 50%, #ffffff 100%);
 }

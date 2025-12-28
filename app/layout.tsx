@@ -1,6 +1,5 @@
 import '@mantine/core/styles.css';
 import './globals.css';
-
 import React from 'react';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
 import { theme } from '../theme';
@@ -164,6 +163,13 @@ export default function RootLayout({ children }: { children: any }) {
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.ico" />
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            /* Critical CSS for FCP */
+            body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+            * { box-sizing: border-box; }
+          `
+        }} />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
