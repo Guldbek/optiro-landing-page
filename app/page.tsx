@@ -1,11 +1,23 @@
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
+import { Header } from '../components/Header/Header';
+import { Hero } from '../components/Hero/Hero';
+import { ProjectFlow } from '../components/ProjectFlow/ProjectFlow';
+import { Benefits } from '../components/Benefits/Benefits';
+import { FAQ } from '../components/FAQ/FAQ';
+import { CTA } from '../components/CTA/CTA';
+import { Footer } from '../components/Footer/Footer';
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      <Header />
+      <main>
+        <Hero />
+        <ProjectFlow />
+        <Benefits />
+        <FAQ />
+        <CTA />
+      </main>
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,9 @@
+# Optiro - Projektstyring til Håndværkere
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://optiro.dk/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

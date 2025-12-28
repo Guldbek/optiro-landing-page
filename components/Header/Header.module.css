@@ -1,0 +1,57 @@
+.header {
+  height: 80px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(60, 115, 91, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(60, 115, 91, 0.08);
+  transition: all 0.3s ease;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  height: 40px;
+}
+
+.logoLink:hover {
+  transform: scale(1.05);
+}
+
+.loginButton {
+  border: 2px solid #3c735b;
+  color: #3c735b;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #3c735b;
+  color: white;
+  border-color: #3c735b;
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, #3c735b 0%, #4a8f6f 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(60, 115, 91, 0.3);
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.ctaButton:hover {
+  background: linear-gradient(135deg, #4a8f6f 0%, #3c735b 100%);
+  box-shadow: 0 6px 25px rgba(60, 115, 91, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 576px) {
+  .logoLink img {
+    width: 80px;
+    height: auto;
+  }
+}

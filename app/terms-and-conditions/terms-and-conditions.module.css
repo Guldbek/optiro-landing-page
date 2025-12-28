@@ -1,0 +1,57 @@
+.main {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.pageTitle {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--mantine-color-optiro-9);
+  margin-bottom: 8px;
+}
+
+.updateDate {
+  font-size: 14px;
+  color: var(--mantine-color-gray-6);
+  font-style: italic;
+}
+
+.intro {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--mantine-color-gray-8);
+  font-weight: 400;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--mantine-color-optiro-8);
+  margin-bottom: 12px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--mantine-color-gray-8);
+}
+
+.text ul {
+  margin-top: 8px;
+  padding-left: 24px;
+}
+
+.text li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .pageTitle {
+    font-size: 36px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+  }
+}
