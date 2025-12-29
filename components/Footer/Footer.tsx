@@ -42,6 +42,18 @@ export function Footer() {
               >
                 Gantt diagram
               </Anchor>
+              <Anchor
+                href="/tidsregistrering"
+                className={classes.link}
+              >
+                Tidsregistrering
+              </Anchor>
+              <Anchor
+                href="/gratis"
+                className={classes.link}
+              >
+                Prøv gratis
+              </Anchor>
             </Stack>
 
             <Stack gap="xs">

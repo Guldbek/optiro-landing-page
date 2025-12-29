@@ -44,6 +44,8 @@ export default function GanttDiagramPage() {
           </Container>
         </div>
 
+        <div className={classes.section}>
+
         <Container size="md" className={classes.section}>
           <div className={classes.imageWrapper}>
             <Image
@@ -59,6 +61,10 @@ export default function GanttDiagramPage() {
             </Text>
           </div>
         </Container>
+        </div>
+
+
+        <div className={classes.section}>
 
         <Container size="md" className={classes.section}>
           <Title className={classes.h2} order={2}>
@@ -89,6 +95,7 @@ export default function GanttDiagramPage() {
             </ListItem>
           </List>
         </Container>
+        </div>
 
         <div className={classes.solutionSection}>
           <Container size="md">
@@ -178,6 +185,7 @@ export default function GanttDiagramPage() {
             </Text>
           </Container>
         </div>
+        <div className={classes.section}>
 
         <Container size="md" className={classes.section}>
           <Title className={classes.h2} order={2}>
@@ -215,6 +223,7 @@ export default function GanttDiagramPage() {
             bedre overblik end simple opgavelister.
           </Text>
         </Container>
+        </div>
 
         <div className={classes.comparisonSection}>
           <Container size="md">
