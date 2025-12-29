@@ -30,6 +30,20 @@ export function Hero() {
               <Text size="sm" c="dimmed">
                 Gratis at prøve – ingen binding, intet kreditkort. Bare kom i gang.
               </Text>
+              <Text size="sm" mt="md">
+                Læs mere om{' '}
+                <a href="/ressourceplanlaegning" className={classes.link}>
+                  ressourceplanlægning
+                </a>
+                ,{' '}
+                <a href="/projektstyring-smaa-teams" className={classes.link}>
+                  projektstyring for små teams
+                </a>
+                {' '}eller{' '}
+                <a href="/gantt-diagram" className={classes.link}>
+                  gantt diagram til projektstyring
+                </a>
+              </Text>
             </Stack>
           </div>
           <div className={classes.imageWrapper}>
