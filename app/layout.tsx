@@ -2,6 +2,7 @@ import '@mantine/core/styles.css';
 import './globals.css';
 import React from 'react';
 import { mantineHtmlProps, MantineProvider } from '@mantine/core';
+import { Analytics } from '@vercel/analytics/react';
 import { theme } from '../theme';
 
 export const metadata = {
@@ -188,6 +189,7 @@ export default function RootLayout({ children }: { children: any }) {
       </head>
       <body>
         <MantineProvider theme={theme}>{children}</MantineProvider>
+        <Analytics />
       </body>
     </html>
   );
