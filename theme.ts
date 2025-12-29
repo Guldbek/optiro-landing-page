@@ -19,4 +19,5 @@ export const theme = createTheme({
     ],
   },
   primaryShade: 5,
+  black: '#2d5a4a',
 });

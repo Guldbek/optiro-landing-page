@@ -1,7 +1,7 @@
 'use client';
 
 import { Container, Group, Anchor, Stack, ActionIcon } from '@mantine/core';
-import { IconBrandLinkedin, IconBrandFacebook, IconBrandInstagram, IconBrandX } from '@tabler/icons-react';
+import { IconBrandLinkedin, IconBrandFacebook, IconBrandInstagram } from '@tabler/icons-react';
 import Image from 'next/image';
 import classes from './Footer.module.css';
 
@@ -23,6 +23,27 @@ export function Footer() {
           </div>
 
           <div className={classes.links}>
+            <Stack gap="xs">
+              <Anchor
+                href="/ressourceplanlaegning"
+                className={classes.link}
+              >
+                Ressourceplanlægning
+              </Anchor>
+              <Anchor
+                href="/projektstyring-smaa-teams"
+                className={classes.link}
+              >
+                Projektstyring
+              </Anchor>
+              <Anchor
+                href="/gantt-diagram"
+                className={classes.link}
+              >
+                Gantt diagram
+              </Anchor>
+            </Stack>
+
             <Stack gap="xs">
               <Anchor
                 href="https://app.optiro.dk/experiences/create-new-company/sign-up"

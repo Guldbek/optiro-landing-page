@@ -15,7 +15,9 @@ export function Hero() {
             </Title>
             <Text className={classes.description} size="lg" mt="md">
               Hvem arbejder på hvad? Hvor mange timer er der tilbage på projektet? Har vi kapacitet til det nye projekt? 
-              Optiro giver dig overblik over projekter, ressourcer og økonomi – uanset om du driver konsulentvirksomhed, 
+              Optiro giver dig overblik over{' '}
+              <a href="/projektstyring-smaa-teams" className={classes.link}>projektstyring</a>,{' '}
+              <a href="/ressourceplanlaegning" className={classes.link}>ressourceplanlægning</a> og økonomi – uanset om du driver konsulentvirksomhed, 
               tegner boliger eller bygger dem. Start simpelt, voks efter behov.
             </Text>
             <Stack gap="md" mt="xl">

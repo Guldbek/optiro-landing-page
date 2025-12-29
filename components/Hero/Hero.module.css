@@ -36,6 +36,17 @@
   margin-top: 20px;
 }
 
+.link {
+  color: var(--mantine-color-optiro-7);
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--mantine-color-optiro-6);
+}
+
 .ctaButton {
   background: linear-gradient(135deg, #3c735b 0%, #4a8f6f 100%);
   font-size: 20px;

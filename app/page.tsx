@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import { Header } from '../components/Header/Header';
 import { Hero } from '../components/Hero/Hero';
+import { LearnMore } from '../components/LearnMore/LearnMore';
 
 // Lazy load below-the-fold components
 const ProjectFlow = dynamic(() => import('../components/ProjectFlow/ProjectFlow').then(mod => ({ default: mod.ProjectFlow })), {
@@ -30,6 +31,7 @@ export default function HomePage() {
         <Hero />
         <ProjectFlow />
         <Benefits />
+        <LearnMore />
         <Pricing />
         <FAQ />
         <CTA />
