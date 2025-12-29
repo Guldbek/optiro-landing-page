@@ -33,7 +33,7 @@ const benefitSections = [
     ],
   },
   {
-    badge: 'VØK MED OS',
+    badge: 'VOKS MED OS',
     title: 'Start simpelt – voks når du har brug for det',
     subtitle: 'Optiro er bygget til at følge din virksomhed. Start med grundlæggende projektstyring og tidsregistrering. Tilføj ressourceplanlægning når teamet vokser. Integrér økonomi når det giver mening. Du bestemmer tempoet.',
     image: '/project-economy-forecast.png',
